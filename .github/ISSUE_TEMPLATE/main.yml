@@ -7,12 +7,10 @@ body:
 - type: markdown
   attributes:
     value: |
-      ## 목적
+      "## 목적"
       >
 - type: textarea
   attributes:
-    label: 목적
-    description: 이슈를 남기는 목적이 무엇인가요?
     value: |
       >
   validations:
