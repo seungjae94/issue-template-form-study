@@ -4,6 +4,11 @@ labels: []
 assignees: [c99-coder, seungjae94, kimhyeongjun95, tnghd5761]
 
 body:
+- type: markdown
+  attributes:
+    value: |
+      ## 목적
+      >
 - type: textarea
   attributes:
     label: 목적
