@@ -4,57 +4,28 @@ labels: []
 assignees: [c99-coder, seungjae94, kimhyeongjun95, tnghd5761]
 
 body:
-- type: checkboxes
+- type: textarea
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
+    label: 목적
+    description: 이슈를 남기는 목적이 무엇인가요?
     options:
-    - label: I have searched the existing issues
+    - value: |
+        >
       required: true
+      
 - type: textarea
   attributes:
-    label: Current Behavior
-    description: A concise description of what you're experiencing.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
-    placeholder: |
-      1. In this environment...
-      2. With this config...
-      3. Run '...'
-      4. See error...
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Environment
-    description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - OS:
-        - Node:
-        - npm:
-    render: markdown
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Anything else?
-    description: |
-      Links? References? Anything that will give us more context about the issue you are encountering!
+    label: 작업 내용
+    description: 어떤 작업을 했나요?
+    options:
+    - value: |
+        - [ ] 
+      required: true
 
-      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
-  validations:
-    required: false
+- type: textarea
+  attributes:
+    label: 참고 사항
+    options:
+    - value: |
+        -
+      required: false
