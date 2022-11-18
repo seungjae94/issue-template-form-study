@@ -11,7 +11,7 @@ body:
       >
 - type: textarea
   attributes:
-    label: 
+    label: ""
     value: |
       >
   validations:
